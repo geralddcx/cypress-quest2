@@ -3,7 +3,7 @@
 beforeEach( () => {
     cy.visit('https://preprod.backmarket.fr/register')
 
-    cy.get('[data-qa="accept-cta"').click();
+    cy.get('[data-qa="accept-cta"]').click();
 })
 
 describe('Un utilisateur veut se connecter avec son mail et son mot de passe', () => {
